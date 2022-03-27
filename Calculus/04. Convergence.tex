@@ -87,11 +87,11 @@
 \end{theorem}
 
 \begin{proof}
-Допустим, что \(x_n \to x\). Тогда существует целое \(N\), такое, что при \(n > N\) имеем \(\rho(x_n, x) < 1\). Положим
+Допустим, что \(x_n \to x\). Тогда существует целое \(N\), такое, что при \(n > N\) имеем \(\rho(x, x_n) < 1\). Положим
 \[
-r = \max\{1, \rho(x_1, x), ..., \rho(x_N, x)\}.
+r = \max\{1, \rho(x, x_1), ..., \rho(x, x_N)\}.
 \]
-Тогда \(\rho(x_n, x) \leq r\) при \(n \in \mathbb{N}\).
+Тогда \(x_n \in B[x, r]\) при \(n \in \mathbb{N}\).
 \end{proof}
 
 \begin{theorem}
